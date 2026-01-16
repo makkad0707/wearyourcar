@@ -1,0 +1,25 @@
+/* Wymóg: Kolorystyka zgodna z WCAG (ciemny tekst na jasnym tle) */
+body {
+    background-color: #f4f4f4;
+    color: #212529;
+}
+
+/* Stylowanie galerii */
+.gallery-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover; /* Ładne przycięcie zdjęć */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Efekt najechania myszką */
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
